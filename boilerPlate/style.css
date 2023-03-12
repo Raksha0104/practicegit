@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    /* display:flex; --prints in a row fashion. use flex-direction and set it to column  */
+    flex-direction: column;
+    align-items: center; /* center the items horizontally*/
+    justify-content: center; /* center the items fom top or vertically*/ 
+    height: 100vh; /* vh is the viewport height, the system screen height*/
+}
